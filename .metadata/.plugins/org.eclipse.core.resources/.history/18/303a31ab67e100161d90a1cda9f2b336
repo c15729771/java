@@ -1,0 +1,18 @@
+package com.killian.helloworld;
+import java.util.Scanner;
+import java.util.ArrayList;
+public class App {
+	
+	public static ArrayList <Student> studentList = new ArrayList<Student>();
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("how many students?");
+		int number = scan.nextInt();
+		
+		
+		
+	}//end main
+
+}
